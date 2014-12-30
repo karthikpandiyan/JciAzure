@@ -80,8 +80,15 @@
     <Content Include="bin\Microsoft.IdentityModel.Extensions.dll" />
     <Content Include="bin\Microsoft.SharePoint.Client.dll" />
     <Content Include="bin\Microsoft.SharePoint.Client.Runtime.dll" />
+    <Content Include="JciEventReceiverWeb.dll" />
+    <Content Include="JciEventReceiverWeb.pdb" />
+    <Content Include="Microsoft.IdentityModel.dll" />
+    <Content Include="Microsoft.IdentityModel.Extensions.dll" />
+    <Content Include="Microsoft.SharePoint.Client.dll" />
+    <Content Include="Microsoft.SharePoint.Client.Runtime.dll" />
     <Content Include="packages.config" />
     <None Include="bin\JciEventReceiverWeb.dll.config" />
+    <None Include="JciEventReceiverWeb.dll.config" />
     <None Include="Properties\PublishProfiles\pub2.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
