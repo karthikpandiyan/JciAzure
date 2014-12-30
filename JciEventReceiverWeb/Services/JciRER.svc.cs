@@ -98,7 +98,7 @@ namespace JciEventReceiverWeb.Services
                     List imageLibrary = clientContext.Web.Lists.GetByTitle("Jci");
                     ListItemCreationInformation itemCreateInfo = new ListItemCreationInformation();
                     ListItem oListItem = imageLibrary.GetItemById(properties.ItemEventProperties.ListItemId);
-                    oListItem["Title"] = "TITLE CHANGED BY Karthik";
+                    oListItem["fullname"] = oListItem["First"].ToString() + " " + oListItem["Last"].ToString();
                     oListItem.Update();
                     clientContext.ExecuteQuery();
 
