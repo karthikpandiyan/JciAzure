@@ -23,6 +23,7 @@ namespace JciEventReceiverWeb.Services
                 if (clientContext != null)
                 {
                     clientContext.Load(clientContext.Web);
+                    
                     clientContext.ExecuteQuery();
                 }
             }
@@ -36,6 +37,7 @@ namespace JciEventReceiverWeb.Services
         /// <param name="properties">Holds information about the remote event.</param>
         public void ProcessOneWayEvent(SPRemoteEventProperties properties)
         {
+            /*
             using (ClientContext clientContext = TokenHelper.CreateRemoteEventReceiverClientContext(properties))
             {
                 if (clientContext != null)
@@ -44,6 +46,44 @@ namespace JciEventReceiverWeb.Services
                     clientContext.ExecuteQuery();
                 }
             }
+
+            */
+            using (ClientContext clientContext =
+        TokenHelper.CreateRemoteEventReceiverClientContext(properties))
+            {
+                if (clientContext != null)
+                {
+                    string firstName =
+                        properties.ItemEventProperties.AfterProperties[
+                            "Title"
+                            ].ToString();
+
+                    string lastName =
+                        properties.ItemEventProperties.AfterProperties[
+                            "Title"
+                            ].ToString();
+
+                    List lstContacts =
+                        clientContext.Web.Lists.GetByTitle(
+                            properties.ItemEventProperties.ListTitle
+                        );
+
+                    ListItem itemContact =
+                        lstContacts.GetItemById(
+                            properties.ItemEventProperties.ListItemId
+                        );
+
+                    itemContact["Title"] =
+                        String.Format("{0} {1}", firstName, lastName);
+                    itemContact.Update();
+
+                    clientContext.ExecuteQuery();
+                }
+            }
+
+        }
+
+        
         }
     }
-}
+
