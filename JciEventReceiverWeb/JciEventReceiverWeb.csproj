@@ -73,7 +73,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\en\Microsoft.IdentityModel.resources.dll" />
     <Content Include="bin\JciEventReceiverWeb.dll" />
     <Content Include="bin\JciEventReceiverWeb.pdb" />
     <Content Include="bin\Microsoft.IdentityModel.dll" />
@@ -128,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="bin\en\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
