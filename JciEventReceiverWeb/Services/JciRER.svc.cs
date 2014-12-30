@@ -97,10 +97,32 @@ namespace JciEventReceiverWeb.Services
                     clientContext.ExecuteQuery();
                     List imageLibrary = clientContext.Web.Lists.GetByTitle("Jci");
                     ListItemCreationInformation itemCreateInfo = new ListItemCreationInformation();
-                    ListItem oListItem = imageLibrary.AddItem(itemCreateInfo);
-                    oListItem["Title"] = "TITLE CHANGED BY RER";
+                    ListItem oListItem = imageLibrary.GetItemById(properties.ItemEventProperties.ListItemId);
+                    oListItem["Title"] = "TITLE CHANGED BY Karthik";
                     oListItem.Update();
                     clientContext.ExecuteQuery();
+
+
+                   //
+                    //using (ClientContext clientContext = TokenHelper.CreateRemoteEventReceiverClientContext(properties))
+                    //{
+                        ////if (clientContext != null)
+                        ////{
+                        ////    string firstName = properties.ItemEventProperties.AfterProperties["FirstName"].ToString();
+
+                        ////    string lastName = properties.ItemEventProperties.AfterProperties["LastNamePhonetic"].ToString();
+
+                        ////    List lstContacts = clientContext.Web.Lists.GetByTitle(properties.ItemEventProperties.ListTitle);
+
+                        ////    ListItem itemContact = lstContacts.GetItemById(properties.ItemEventProperties.ListItemId);
+
+                        ////    itemContact["FullName"] = String.Format("{0} {1}", firstName, lastName);
+                        ////    itemContact.Update();
+
+                        ////    clientContext.ExecuteQuery();
+                        ////}
+                  //  }
+                   //
                }
                catch (Exception ex){
                    throw;
