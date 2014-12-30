@@ -9,8 +9,11 @@
   <Properties>
     <Title>JciEventReceiver</Title>
     <StartPage>https://jcier.azurewebsites.net/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <InstalledEventEndpoint>https://jcier.azurewebsites.net/Services/AppEventReceiver.svc</InstalledEventEndpoint>
+    <UninstallingEventEndpoint>https://jcier.azurewebsites.net/Services/AppEventReceiver.svc</UninstallingEventEndpoint>
+    <UpgradedEventEndpoint>https://jcier.azurewebsites.net/Services/AppEventReceiver.svc</UpgradedEventEndpoint>
   </Properties>
-
+  
   <AppPrincipal>
     <RemoteWebApplication ClientId="afadbd35-a73b-4235-9f2b-db7725c798fd" />
   </AppPrincipal>
