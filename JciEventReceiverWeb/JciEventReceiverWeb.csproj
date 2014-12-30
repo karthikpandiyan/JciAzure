@@ -73,7 +73,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\en\Microsoft.IdentityModel.resources.dll" />
+    <Content Include="bin\JciEventReceiverWeb.dll" />
+    <Content Include="bin\JciEventReceiverWeb.pdb" />
+    <Content Include="bin\Microsoft.IdentityModel.dll" />
+    <Content Include="bin\Microsoft.IdentityModel.Extensions.dll" />
+    <Content Include="bin\Microsoft.SharePoint.Client.dll" />
+    <Content Include="bin\Microsoft.SharePoint.Client.Runtime.dll" />
     <Content Include="packages.config" />
+    <None Include="bin\JciEventReceiverWeb.dll.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
