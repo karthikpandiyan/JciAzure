@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="70607fa0-690e-4e14-9f43-b50923ac543e" solutionId="70607fa0-690e-4e14-9f43-b50923ac543e" resetWebServer="false" sharePointProductVersion="16.0" name="JciEventReceiver" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="707883ea-82b8-48a9-91f0-72d548610c3c" />
+  </features>
+</package>

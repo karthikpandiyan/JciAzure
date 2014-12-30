@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JciEventReceiver", "JciEventReceiver\JciEventReceiver.csproj", "{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JciEventReceiverWeb", "JciEventReceiverWeb\JciEventReceiverWeb.csproj", "{539923AF-3E59-4025-96BE-6709A76E3414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F562E6-1D3C-4F8D-B0E6-7865D7E4E05D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{539923AF-3E59-4025-96BE-6709A76E3414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539923AF-3E59-4025-96BE-6709A76E3414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539923AF-3E59-4025-96BE-6709A76E3414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539923AF-3E59-4025-96BE-6709A76E3414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
