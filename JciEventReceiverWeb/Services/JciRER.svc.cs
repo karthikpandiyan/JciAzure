@@ -47,7 +47,7 @@ namespace JciEventReceiverWeb.Services
                 }
             }
 
-            */
+           
             using (ClientContext clientContext =
         TokenHelper.CreateRemoteEventReceiverClientContext(properties))
             {
@@ -80,6 +80,34 @@ namespace JciEventReceiverWeb.Services
                     clientContext.ExecuteQuery();
                 }
             }
+
+             */
+            ///
+
+
+             // On Item Added event, the list item creation executes
+     if(properties.EventType == SPRemoteEventType.ItemAdded){
+      using (ClientContext clientContext = TokenHelper.CreateRemoteEventReceiverClientContext(properties))
+      {
+          if (clientContext != null)
+          {
+               try
+               {
+                    clientContext.Load(clientContext.Web);
+                    clientContext.ExecuteQuery();
+                    List imageLibrary = clientContext.Web.Lists.GetByTitle("Jci");
+                    ListItemCreationInformation itemCreateInfo = new ListItemCreationInformation();
+                    ListItem oListItem = imageLibrary.AddItem(itemCreateInfo);
+                    oListItem["Title"] = "TITLE CHANGED BY RER";
+                    oListItem.Update();
+                    clientContext.ExecuteQuery();
+               }
+               catch (Exception ex){
+                   throw;
+               }
+          }
+      }
+     }
 
         }
 
