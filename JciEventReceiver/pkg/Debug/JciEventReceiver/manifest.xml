@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="70607fa0-690e-4e14-9f43-b50923ac543e" SharePointProductVersion="16.0">
-  <FeatureManifests>
-    <FeatureManifest Location="JciEventReceiver_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>
