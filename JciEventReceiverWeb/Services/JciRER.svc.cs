@@ -98,7 +98,7 @@ namespace JciEventReceiverWeb.Services
                     List imageLibrary = clientContext.Web.Lists.GetByTitle("Jci");
                     ListItemCreationInformation itemCreateInfo = new ListItemCreationInformation();
                     ListItem oListItem = imageLibrary.GetItemById(properties.ItemEventProperties.ListItemId);
-                    string _userLoginName = properties.ItemEventProperties.UserLoginName;
+                 l
                         string firstName = properties.ItemEventProperties.AfterProperties["First"].ToString();
 
                         string lastName = properties.ItemEventProperties.AfterProperties["Last"].ToString();

@@ -81,7 +81,6 @@
     <Content Include="bin\JciEventReceiverWeb.pdb" />
     <Content Include="bin\Microsoft.IdentityModel.dll" />
     <Content Include="bin\Microsoft.IdentityModel.Extensions.dll" />
-    <Content Include="bin\Microsoft.SharePoint.Client.dll" />
     <Content Include="bin\Microsoft.SharePoint.Client.Runtime.dll" />
     <Content Include="bin\Microsoft.SharePoint.Client.UserProfiles.dll" />
     <Content Include="JciEventReceiverWeb.dll" />
