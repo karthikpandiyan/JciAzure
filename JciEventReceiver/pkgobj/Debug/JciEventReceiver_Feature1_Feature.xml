@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="14e030ae-cf0f-4b81-a03a-7d23a26fc773" Scope="Web" Title="JciEventReceiver Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="JciRER\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="JciRER\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

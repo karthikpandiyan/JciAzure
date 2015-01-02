@@ -52,6 +52,10 @@
     <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=16.0.0.0">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
+    </Reference>
     <Reference Include="System.IdentityModel" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -79,6 +83,7 @@
     <Content Include="bin\Microsoft.IdentityModel.Extensions.dll" />
     <Content Include="bin\Microsoft.SharePoint.Client.dll" />
     <Content Include="bin\Microsoft.SharePoint.Client.Runtime.dll" />
+    <Content Include="bin\Microsoft.SharePoint.Client.UserProfiles.dll" />
     <Content Include="JciEventReceiverWeb.dll" />
     <Content Include="JciEventReceiverWeb.pdb" />
     <Content Include="Microsoft.IdentityModel.dll" />

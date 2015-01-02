@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SharePoint.Client;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -34,10 +35,15 @@ namespace JciEventReceiverWeb
 
             using (var clientContext = spContext.CreateUserClientContextForSPHost())
             {
+
+              
                 clientContext.Load(clientContext.Web, web => web.Title);
                 clientContext.ExecuteQuery();
                 Response.Write(clientContext.Web.Title);
             }
         }
+
+
+      
     }
 }

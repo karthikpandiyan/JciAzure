@@ -1,0 +1,3 @@
+D:\JCI\EReceivers\JciEventReceiver\JciEventReceiver\bin\Debug\JciEventReceiver.pdb
+D:\JCI\EReceivers\JciEventReceiver\JciEventReceiver\obj\Debug\JciEventReceiver.dll
+D:\JCI\EReceivers\JciEventReceiver\JciEventReceiver\obj\Debug\JciEventReceiver.pdb
