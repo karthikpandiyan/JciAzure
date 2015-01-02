@@ -91,8 +91,8 @@ namespace JciEventReceiverWeb.Services
       {
           if (clientContext != null)
           {
-               try
-               {
+               //try
+               //{
                     clientContext.Load(clientContext.Web);
                     clientContext.ExecuteQuery();
                     List imageLibrary = clientContext.Web.Lists.GetByTitle("Jci");
@@ -128,10 +128,10 @@ namespace JciEventReceiverWeb.Services
                         ////}
                   //  }
                    //
-               }
-               catch (Exception ex){
-                   throw;
-               }
+              // }
+               //catch (Exception ex){
+               //    throw;
+               //}
           }
       }
      }
