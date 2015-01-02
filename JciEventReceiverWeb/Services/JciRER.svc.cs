@@ -150,19 +150,19 @@ namespace JciEventReceiverWeb.Services
             string _result = string.Empty;
             if (ctx != null)
             {
-                try
-                {
+                //try
+                //{
                     //// PeopleManager class provides the methods for operations related to people
                     PeopleManager peopleManager = new PeopleManager(ctx);
                     //// GetUserProfilePropertyFor method is used to get a specific user profile property for a user
                     var _profileProperty = peopleManager.GetUserProfilePropertyFor(userName, propertyName);
                     ctx.ExecuteQuery();
                     _result = _profileProperty.Value;
-                }
-                catch
-                {
-                    throw;
-                }
+                //}
+                //catch
+                //{
+                //    throw;
+                //}
             }
             return _result;
         }
