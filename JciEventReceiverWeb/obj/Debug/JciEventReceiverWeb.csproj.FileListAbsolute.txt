@@ -3,4 +3,4 @@ D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.d
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.pdb
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.dll
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.pdb
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\Microsoft.SharePoint.Client.dll
+D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.csprojResolveAssemblyReference.cache
