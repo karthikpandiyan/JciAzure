@@ -52,6 +52,9 @@
     <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=16.0.0.0">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.SharePoint.Client.Taxonomy, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.SharePoint.Client.UserProfiles, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Microsoft.SharePoint.Client.UserProfiles.dll</HintPath>
@@ -94,6 +97,7 @@
     <None Include="bin\JciEventReceiverWeb.dll.config" />
     <None Include="JciEventReceiverWeb.dll.config" />
     <None Include="Properties\PublishProfiles\pub2.pubxml" />
+    <None Include="Properties\PublishProfiles\pub3.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

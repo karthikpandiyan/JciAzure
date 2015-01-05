@@ -2,7 +2,7 @@
 <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="JciEventReceiver"
-     ProductID="{c0c4a86e-726a-406f-9c06-7bf7251204d4}"
+     ProductID="{55D317F6-114A-4A67-A56B-3A1CCE7C147D}"
      Version="1.0.0.0"
      SharePointMinVersion="16.0.0.0"
 >
@@ -15,11 +15,10 @@
   </Properties>
   
   <AppPrincipal>
-    <RemoteWebApplication ClientId="afadbd35-a73b-4235-9f2b-db7725c798fd" />
+    <RemoteWebApplication ClientId="50583ac2-06cf-4717-9b8a-71a7b9c3debe" />
   </AppPrincipal>
   <AppPermissionRequests>
-    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl" />
-    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web/list" Right="FullControl" />
-    <AppPermissionRequest Scope="http://sharepoint/social/tenant" Right="FullControl" />
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web/list" Right="Write" />
+    <AppPermissionRequest Scope="http://sharepoint/social/tenant" Right="Read" />
   </AppPermissionRequests>
 </App>

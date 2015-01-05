@@ -1,6 +1,6 @@
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.dll.config
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.dll
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.pdb
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.dll
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.pdb
-D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\Microsoft.SharePoint.Client.dll
+D:\JCI\EReceivers\maoj\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.dll.config
+D:\JCI\EReceivers\maoj\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.dll
+D:\JCI\EReceivers\maoj\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.pdb
+D:\JCI\EReceivers\maoj\JciEventReceiver\JciEventReceiverWeb\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+D:\JCI\EReceivers\maoj\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.dll
+D:\JCI\EReceivers\maoj\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.pdb
