@@ -103,8 +103,8 @@ namespace JciEventReceiverWeb.Services
                         string firstName = properties.ItemEventProperties.AfterProperties["First"].ToString();
 
                         string lastName = properties.ItemEventProperties.AfterProperties["Last"].ToString();
-                        string fullname = GetProfilePropertyFor(clientContext, _userLoginName, "FirstName");
-                        oListItem["fullname"] = "tcs:" + fullname;
+                        string fullname = GetProfilePropertyFor(clientContext, _userLoginName, "LastName");
+                        oListItem["fullname"] = "tcs : " + fullname;
                         oListItem.Update();
                         clientContext.ExecuteQuery();
 
