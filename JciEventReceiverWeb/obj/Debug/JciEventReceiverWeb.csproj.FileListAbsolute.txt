@@ -4,3 +4,9 @@ D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.p
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.csprojResolveAssemblyReference.cache
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.dll
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.pdb
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.dll.config
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.dll
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiverWeb\bin\JciEventReceiverWeb.pdb
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.csprojResolveAssemblyReference.cache
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.dll
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiverWeb\obj\Debug\JciEventReceiverWeb.pdb

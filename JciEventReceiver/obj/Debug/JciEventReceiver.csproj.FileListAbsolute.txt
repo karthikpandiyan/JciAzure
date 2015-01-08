@@ -1,3 +1,6 @@
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiver\bin\Debug\JciEventReceiver.pdb
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiver\obj\Debug\JciEventReceiver.dll
 D:\JCI\EReceivers\JciEventReceiver\JciEventReceiver\obj\Debug\JciEventReceiver.pdb
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiver\bin\Debug\JciEventReceiver.pdb
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiver\obj\Debug\JciEventReceiver.dll
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiver\obj\Debug\JciEventReceiver.pdb
