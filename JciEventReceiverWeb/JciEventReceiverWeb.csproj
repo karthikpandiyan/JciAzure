@@ -92,7 +92,9 @@
     <Content Include="Microsoft.SharePoint.Client.Runtime.dll" />
     <Content Include="packages.config" />
     <None Include="bin\JciEventReceiverWeb.dll.config" />
-    <None Include="JciEventReceiverWeb.dll.config" />
+    <None Include="JciEventReceiverWeb.dll.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\pub2.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
