@@ -1,1 +1,1 @@
-D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiver\bin\Debug\app.publish\1.0.0.0\JciEventReceiver.app
+D:\JCI\DEMO\JciEventReceiver_Userprofile\JciEventReceiver\JciEventReceiver\bin\Debug\app.publish\1.0.0.1\JciEventReceiver.app

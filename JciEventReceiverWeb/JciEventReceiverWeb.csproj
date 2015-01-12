@@ -99,6 +99,7 @@
     </None>
     <None Include="Properties\PublishProfiles\pub2.pubxml" />
     <None Include="Properties\PublishProfiles\pub5.pubxml" />
+    <None Include="Properties\PublishProfiles\pub6.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
